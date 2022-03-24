@@ -108,16 +108,15 @@
         <h1 class="col-11 offset-1">Contact</h1>
         <div class="divider col-12"></div>
         <div class="contact-info col-6 offset-1">
-          <form name="contact-form" class="contact-form" 
-          action="https://formspree.io/f/mlezwrrv" method="POST">
+          <form class="contact-form" action="https://formspree.io/f/mlezwrrv" method="POST">
                   <label for="name" class="form-label">Name:</label>
                   <input type="text" name="name" required placeholder="First Last">
                   <label for="email" class="form-label">Email:</label>
                   <input type="email" name="email" required placeholder="email@email.com">
                   <label for="message" class="form-label">Message:</label>
                   <textarea name="message" class="form-textarea" placeholder="Type here..."></textarea>
-                  <input name="website" type="text" id="website" value=""><!--added to form to keep out spam bots-->
-                  <button type="submit" id="submit" class="submit-button">
+                  <input name="website" type="text" value=""><!--added to form to keep out spam bots-->
+                  <button type="submit" class="submit-button">
                       Send
                   </button>
                   <div id="msg"></div>
